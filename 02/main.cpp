@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string> // including string - lib
 
 using namespace std;
 
@@ -12,5 +13,7 @@ int main(void)
 	bool estCeVrai(false);
 
 	char lettre('a');
+
+	string chaineDeCaracteres("toto, tata, tutu !");
 	return (0);
 }
