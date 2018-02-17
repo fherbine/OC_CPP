@@ -4,7 +4,15 @@
  * Main file containing main() function
  */
 
-int		main(void)
+using namespace std;
+
+int			main(void)
 {
+	string	name("(undefined)");
+
+	cout << "What's your name ?" << endl << "$> ";
+	getline(cin, name);
+	cin.ignore();
+	display_name(name);
 	return (0);
 }
