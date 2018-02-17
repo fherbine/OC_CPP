@@ -4,6 +4,6 @@
 # include <string>
 # include <iostream>
 
-
+void	display_name(std::string name);
 
 #endif
