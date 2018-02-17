@@ -12,7 +12,7 @@ int			main(void)
 
 	cout << "What's your name ?" << endl << "$> ";
 	getline(cin, name);
-	cin.ignore();
+	//cin.ignore();
 	display_name(name);
 	return (0);
 }
