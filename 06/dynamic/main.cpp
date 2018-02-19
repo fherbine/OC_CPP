@@ -26,7 +26,9 @@ int main(void)
 	vector<int>		int_tab(42, 42);
 	vector<string>	str_tab(12, "Default");
 
-	display_int_tab(int_tab, 42);
-	display_str_tab(str_tab, 12);
+	int_tab.push_back(101010);
+	str_tab.pop_back();
+	display_int_tab(int_tab, int_tab.size());
+	display_str_tab(str_tab, str_tab.size());
 	return (0);
 }
