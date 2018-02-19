@@ -10,4 +10,7 @@
 # include <string>
 # include <cmath>
 
+void	all_cos(double tab[], int size = 0);
+void	all_names(std::string tab[], int size = 0);
+
 #endif
