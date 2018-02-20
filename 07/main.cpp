@@ -6,11 +6,11 @@ using namespace std;
 
 int main(void)
 {
-	ofstream	path("./"); // default path > current directory
 	string		pathName("./");
 
 	cout << "File path: ";
 	getline(cin, pathName);
+	ofstream	path(pathName);
 	cout << "PATH: " << pathName << endl;
 	return (0);
 }
