@@ -10,7 +10,14 @@ int main(void)
 
 	cout << "File path: ";
 	getline(cin, pathName);
-	ofstream	path(pathName);
-	cout << "PATH: " << pathName << endl;
+	cout << "PATH_TO_OPEN: " << pathName << endl;
+	ofstream	path(pathName.c_str());
+	if (path)
+	{}
+	else
+	{
+		cout << "\033[1;31;40mError :\033[0m program failed to open: ";
+		cout << pathName << endl;
+	}
 	return (0);
 }
