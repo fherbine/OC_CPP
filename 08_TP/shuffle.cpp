@@ -7,7 +7,7 @@ string shuffleWord(string word)
 	string	cp("");
 	string	shuffled("");
 	int		position(0);
-	int		max(shuffleWord.size());
+	int		max = word.size();
 
 	srand(time(0));
 

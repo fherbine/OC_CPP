@@ -11,4 +11,6 @@ std::string	askForAnAnswer(std::string shuffleWord);
 
 std::string	shuffleWord(std::string word);
 
+void		mystery(void);
+
 #endif
